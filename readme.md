@@ -1,19 +1,7 @@
 # Purpose
 In this lab, I created an object 'Area' that had multiple methods to call. After creating the object, I called whatever method I needed in order to find the area of a specific shape.
 
-We're going to start out with the `Demo` class and talk about how to unit test the `addEm` method. Once we create the unit tests we'll implement `addEm` to make sure it works correctly.
-
-We'll look at the `assert` method, but there are tons of other [assertation methods](https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html) that you are free to use. 
-
-Once we've done that you'll move on and create test methods for each of the methods in `Area`.
-
-
-
-## The Lab...
-
-In the project you'll also find a file named `Area.java`. For this lab you need to create at least 4 unit test methods for each of the area methods in `Area`. You'll also need to implement each of the methods to make sure that your unit tests are correct, but you should create the test files first to prove that your implementations are correct, not the other way around. 
-
-
+The shapes that I calculated the areas of are listed below.
 
 ## Triangle
 
@@ -42,8 +30,6 @@ This is known as [Heron's Formula](https://en.wikipedia.org/wiki/Heron%27s_formu
 This is probably the triangle area formula that you know from Geometry.
 
 <img src="https://latex.codecogs.com/gif.latex?\Large&space;area&space;=&space;\frac{height&space;\times&space;base}{2}" title="\Large area = \frac{height \times base}{2}" />
-
-
 
 
 
@@ -86,8 +72,3 @@ Given side length s
 
 ## Thanks
 And thanks to [Codecogs](http://www.codecogs.com) for the scripts to make images out of math formulas. 
-
-## Example
- Area() area = new Area();
-        double temp = area.triangle(2.0);
-        assertEquals(temp, 1.73205);
