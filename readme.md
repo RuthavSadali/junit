@@ -1,3 +1,6 @@
+# Purpose
+In this lab, I created an object 'Area' that had multiple methods to call. After creating the object, I called whatever method I needed in order to find the area of a specific shape.
+
 # Unit Testing Examples
 
 We're going to start out with the `Demo` class and talk about how to unit test the `addEm` method. Once we create the unit tests we'll implement `addEm` to make sure it works correctly.
